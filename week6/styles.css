@@ -49,6 +49,8 @@ body {
     }
     .about script {
         font-size: 20px;
+        text-align: center;
+        margin: auto;
     }
     .about img {
         width: auto;
