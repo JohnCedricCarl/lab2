@@ -47,7 +47,7 @@ body {
     .about span{
         color: cornflowerblue;
     }
-    .about script {
+    .about p {
         font-size: 20px;
         text-align: center;
         margin: auto;
