@@ -79,6 +79,11 @@ body {
         padding: 14px 16px;
         text-decoration: none;
       }
+
+      .contact form {
+        text-align: center;
+      }
+
       .resources ul {
         list-style-type: none;
         text-align: center;
