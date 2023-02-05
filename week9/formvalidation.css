@@ -1,6 +1,8 @@
 body{
     font-family: MS Gothic;
     background-image: linear-gradient(90deg, rgb(234, 222, 118), rgb(201, 58, 26));
+    color: antiquewhite;
+
 }
 .navbar{
     position: fixed;
