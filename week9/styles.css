@@ -1,0 +1,136 @@
+body {
+    font-family: MS Gothic;
+    background-image: url("8bitaurora.jpg");
+    background-repeat: repeat;
+    background-size: 35%;
+    color: antiquewhite;
+}
+.navbar{
+    position: fixed;
+    margin: auto;
+}
+.navbar button {
+    background-color: cornflowerblue;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.about{
+    color: antiquewhite;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+    .about span{
+        color: cornflowerblue;
+    }
+    .about p {
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+    }
+    .about img {
+        width: auto;
+        height: 400px;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 200px;
+
+    }
+.contact h1 {
+  text-align: center;
+}
+    .contact ul {
+        display: block;
+        width: 150px;
+        list-style-type: none;
+        text-align: center;
+        margin: auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      .contact li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      .contact form {
+        text-align: center;
+      }
+
+      .resources ul {
+        list-style-type: none;
+        text-align: center;
+        width: 400px;
+        height: 200px;
+        margin: auto;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      .resources li a {
+        display: block;
+        color: white;
+        text-align: center;
+        margin-right: 10px;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      .resources li button{
+        display: block;
+        color: white;
+        text-align: center;
+        margin-right: 10px;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      .resources h1 {
+        text-align: center;
+        margin: auto;
+      }
+      .resources img {
+        max-width: 100px;
+        max-height: auto;
+      }
+      .resources .img1{
+        max-width: 100px;
+        max-height: auto;
+        position:relative;
+        right: 30px;
+      }
+      .resources .img2{
+        max-width: 100px;
+        max-height: auto;
+        position:relative;
+        left: 100px;
+        bottom: 169px;
+      }
