@@ -19,13 +19,13 @@
 <br><br><br><br><br><br><br><br><br><br><br>
 <?php
 
-$name = $email = $gender = $comment = $website = "";
+$name = $email = $gender = $message = $website = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = test_input($_POST["name"]);
   $email = test_input($_POST["email"]);
   $website = test_input($_POST["website"]);
-  $comment = test_input($_POST["comment"]);
+  $message = test_input($_POST["message"]);
   $gender = test_input($_POST["gender"]);
 }
 
