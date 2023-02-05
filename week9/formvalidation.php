@@ -16,6 +16,7 @@
           <p id="demo"></p></li>
       </ul>
   </div>
+<br><br><br><br><br><br><br><br><br><br><br>
 <?php
 
 $name = $email = $gender = $comment = $website = "";
