@@ -20,13 +20,13 @@
 <br><br><br><br><br><br><br><br><br><br><br>
 <?php
 
-$name = $email = $gender = $message = $website = "";
+$name = $email = $gender = $messages = $website = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = test_input($_POST["name"]);
   $email = test_input($_POST["email"]);
   $website = test_input($_POST["website"]);
-  $message = test_input($_POST["message"]);
+  $messages = test_input($_POST["messages"]);
   $gender = test_input($_POST["gender"]);
 }
 
@@ -64,7 +64,7 @@ echo $email;
 echo "<br>";
 echo $website;
 echo "<br>";
-echo $message;
+echo $messages;
 echo "<br>";
 echo $gender;
 ?>
