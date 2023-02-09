@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "webprogmi212";
 $password = "webprogmi212";
-$dbname = "webprogmi212";
+$dbname = "DBmi212";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -15,7 +15,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
-    echo "name: " . $row["fname"]."<br>" "email: " . $row["email"]."<br>" "website: " . $row["website"]."<br>" "message:  " . $row["messages"]."<br>" "gender: " . $row["gender"]. "<br>";
+    echo "name: " . $row["fname"]. "<br>email: " . $row["email"]. "<br>website: " . $row["website"]. "<br>message:  " . $row["messages"]. "<br>gender: " . $row["gender"]. "<br>";
   }
 } else {
   echo "0 results";
